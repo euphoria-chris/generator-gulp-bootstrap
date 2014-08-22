@@ -73,9 +73,9 @@ AppGenerator.prototype.askFor = function askFor() {
   }.bind(this));
 };
 
-AppGenerator.prototype.gulpfile = function () {
-  this.template('gulpfile.js');
-};
+// AppGenerator.prototype.gulpfile = function () {
+//  this.template('gulpfile.js');
+// };
 
 AppGenerator.prototype.packageJSON = function () {
   this.template('_package.json', 'package.json');
